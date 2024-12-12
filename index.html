@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="intro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <section class="intro">
+        <div class="image">
+            <img src="https://drive.google.com/thumbnail?id=1sJrcrS2x18CRfWZZrPpGqXpO-Zp4NDFA" >
+        </div>
+        <div class="paragraph">
+            <h1>About Me</h1>
+            <h5>Sophia Gwyneth T. Dichoso</h5>
+            <p>I study computer science and have an interest in programming and web development. 
+                I'm learning Python right now and working on projects like making
+                 interactive websites and data dashboards. I want to learn more and use what 
+                 I've learned to tackle practical issues.
+            </p>
+        </div>
+    </section>
+
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    background:  linear-gradient(#f3c8dd, #d183a9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro.image .paragraph{
+    height: 100%;
+    width: 600px;
+    max-width: 100%;
+}
+
+.paragraph{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.paragraph h1{
+    color: #d88084;
+    font-size: 85px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.paragraph h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.paragraph p{
+    color: #a65665;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 1180px) {
+   .intro{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+   } 
+}
+
+@media screen and (max-width: 650px) {
+    .intro .image .paragraph{
+        margin-bottom: 35px;
+    }
+    .paragraph h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+}
+</style>
+
+</body>
+</html>
